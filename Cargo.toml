@@ -7,3 +7,8 @@ edition = "2021"
 
 [dependencies]
 sdl2= "0.35.2"
+
+
+
+[features]
+default=["sdl2/image"] # by default you can't use the image module with sdl2, we need to activate it.  

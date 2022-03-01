@@ -10,7 +10,7 @@ use sdl2::render::{Canvas,Texture, TextureCreator};
 use std::thread::sleep;
 use std::time::Duration;
 use sdl2::video::{Window,WindowContext};
-
+ 
 
 
 
@@ -76,6 +76,8 @@ pub fn main(){
                     let texture_creator: TextureCreator<_> = canvas.texture_creator();
 
                     const TEXTURE_SIZE: u32=32;
+
+ 
 
     //create a texture with a 323X32 size
     
